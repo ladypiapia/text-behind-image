@@ -6,7 +6,7 @@ import { useUser } from '@/hooks/useUser';
 import { useSessionContext } from '@supabase/auth-helpers-react';
 import { Avatar, AvatarImage } from "@/components/ui/avatar"
 import { Separator } from '@/components/ui/separator';
-import Authenticate from '@/components/authenticate';
+// import Authenticate from '@/components/authenticate';
 import { Button } from '@/components/ui/button';
 import { removeBackground } from "@imgly/background-removal";
 import { PlusIcon, ReloadIcon } from '@radix-ui/react-icons';
@@ -246,7 +246,7 @@ const Page = () => {
                     )}
                 </div>
             ) : (
-                <Authenticate />
+                // <Authenticate />
             )}
         </>
     );
